@@ -20,8 +20,56 @@ body {
 
 .logo {
     flex: 20%;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline h2 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: grey;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180F4A;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+    
 }
 
 .logo h1 {
