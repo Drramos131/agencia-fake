@@ -109,3 +109,61 @@ body {
     border: none;
     background: #ff2978;
 }
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.conteudo-oculto {
+    display: none;
+}
+
+.card:hover {
+    background: #ff2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .conteudo-oculto {
+    display: block;
+}
+
+
