@@ -22,13 +22,13 @@ Agência Fake é um projecto feito com HTML e CSS que tem como objectivo constru
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- Git e Github
+✔️ HTML
+✔️ CSS
+✔️ Git e Github
 
 <br>
 
-## Deploy 
+## :link Deploy 
 ✅ [Github](https://fernandogomesfg.github.io/agencia-fake/)
 
 <br>
